@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">janico</string>
+    <string name="wa">This is not your username or pin. This name will be visible to your WhatsApp contacts</string>
+</resources>

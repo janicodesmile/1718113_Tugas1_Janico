@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/white" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="170dp"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginBottom="82dp"
+            android:src="@drawable/janico" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginBottom="81dp"
+            android:drawableLeft="@drawable/ic_camera_alt_black_24dp"
+            android:paddingLeft="15dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="90dp"
+            android:paddingStart="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Janico Desmile"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="90dp"
+            android:paddingStart="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:textSize="50sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="350dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wa"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="0dp"
+            android:paddingStart="20dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginRight="0dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="0dp"
+            android:paddingStart="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="90dp"
+            android:paddingStart="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:textSize="50sp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="350dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginRight="0dp"
+            android:background="@android:color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+            android:layout_marginTop="190dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="0dp"
+            android:paddingStart="20dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_name"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="+6281249562178"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="90dp"
+            android:paddingStart="20dp"
+            android:textSize="25sp"
+            android:id="@+id/tv_nama"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:layout_marginTop="290dp"
+            android:paddingLeft="15dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+</ScrollView>
