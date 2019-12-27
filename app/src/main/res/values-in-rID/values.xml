@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profil</string>
+    <string name="wa">Ini bukan username ataupun pin. Nama ini akan terlihat di kontak</string>
+    <string name="nama">Nama</string>
+    <string name="about">Tentang</string>
+    <string name="isi">Terserah</string>
+    <string name="phone">No Hp</string>
+    <string name="setting">Pengaturan</string>
+</resources>
