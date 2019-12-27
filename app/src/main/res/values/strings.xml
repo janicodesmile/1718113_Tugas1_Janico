@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">janico</string>
+    <string name="app_name">Profile</string>
     <string name="wa">This is not your username or pin. This name will be visible to your WhatsApp contacts</string>
+    <string name="nama">Name</string>
+    <string name="about">About</string>
+    <string name="isi">Available</string>
+    <string name="phone">Phone</string>
+    <string name="setting">Settings</string>
 </resources>
